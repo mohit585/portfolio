@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: arial, sans-serif;
+}
+ body {
+  background-color: white;
+  color: #333;
+ }
+
+ nav {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  padding:  15px 50px;
+ }
+   nav ul {
+    display: flex;
+    list-style: none;
+
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: solid;
+    margin-left: 20px;
+
+  }
+  .logo {
+  color: #00adb5;
+}
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background: #00adb5;
+
+}
+.hero span{
+  color: #222;
+}
+.hero button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+section {
+  padding: 60px 50px;
+  text-align: center;
+}
+.skills span {
+  display: inline-block;
+  background: #00adb5;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 30px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
